@@ -1,0 +1,169 @@
+![](vertopal_fcd2ab8bc6db4af99433bd4708cd4b45/media/image1.png){width="8.5in"
+height="11.959722222222222in"}
+
+**[Simulation 1]{.underline}**
+
+> ![](vertopal_fcd2ab8bc6db4af99433bd4708cd4b45/media/image2.png){width="6.147222222222222in"
+> height="3.1555555555555554in"}
+>
+> 1.**Calcul des valeurs théoriques :**
+>
+> •Tension crête Vcrête :
+>
+> On a : Veff = 10 𝑉
+>
+> Alors : 𝑉𝑐𝑟𝑒𝑡𝑒 = 𝑉𝑒𝑓𝑓 × √2 = 10 × 1,414 = 14,14 𝑉
+>
+> • Tension continue sur la charge V(DC) :
+>
+> Dans le circuit, il y a une diode D1 qui redresse le signal AC. En
+>
+> supposant une diode idéale et en négligeant toute chute de tension à
+>
+> ses bornes, la tension continue peut-être approximée par :
+>
+> 𝑉𝐷𝐶 ≈𝑉𝑐𝑟𝑒𝑡𝑒 × 1𝜋= 14,14 × 0,318 ≈4,49 𝑉
+>
+> Cependant, en pratique, une diode classique présente une chute de
+>
+> tension d'environ 0.7V. Donc, une valeur plus précise de la tension
+>
+> continue serait :
+>
+> 𝑉𝐷𝐶 ≈( 𝑉𝑐𝑟𝑒𝑡𝑒 −0,7 ) × 1π = ( 14,14 −0,7) × 0,318 ≈4,26 𝑉
+>
+> 2.**Comparaison avec les valeurs mesurées sur l\'oscilloscope et le
+> multimètre :**\
+> •D\'après l\'oscilloscope, la tension crête est d\'environ 13.5 V
+>
+> ![](vertopal_fcd2ab8bc6db4af99433bd4708cd4b45/media/image3.png){width="7.326388888888889in"
+> height="3.4638877952755904in"}
+>
+> •Le multimètre affiche une tension continue de 4.2179V.
+>
+> ![](vertopal_fcd2ab8bc6db4af99433bd4708cd4b45/media/image4.png){width="7.340277777777778in"
+> height="3.3in"}
+
+**Comparaison :**
+
+• Tension crête : La valeur théorique de la tension crête (14.14V) est
+proche de celle observée sur l\'oscilloscope (13.5V), avec une légère
+différence probablement due aux pertes pratiques (chute de tension dans
+la diode et autres résistances dans le circuit).
+
+• Tension continue : La valeur théorique de la tension continue (4.26V)
+correspond également bien à la valeur mesurée par le\
+multimètre (4.2179V), avec une petite différence liée aux effets réels
+du circuit.
+
+**[Simulation 2]{.underline}**
+
+![](vertopal_fcd2ab8bc6db4af99433bd4708cd4b45/media/image5.png){width="6.184722222222222in"
+height="3.0972222222222223in"}
+
+> 1.**Calcul des valeurs théoriques :**
+>
+> 2.Tension crête Vcrête :
+>
+> On a : Veff = 120 𝑉
+>
+> Alors : 𝑉𝑐𝑟𝑒𝑡𝑒 = 𝑉𝑒𝑓𝑓 × √2 = 169.7𝑉
+>
+> 3\. Tension continue sur la charge V(DC) :
+
+𝑉𝐷𝐶 ≈𝑉𝑐𝑟𝑒𝑡𝑒 × 1𝜋= 53.8𝑉
+
+> **2.Comparaison avec les valeurs mesurées sur l\'oscilloscope et le**
+>
+> **multimètre :**
+
+![](vertopal_fcd2ab8bc6db4af99433bd4708cd4b45/media/image6.png){width="6.0in"
+height="2.795832239720035in"}
+
+> •Le multimètre affiche une tension continue de 053.3058V.
+
+![](vertopal_fcd2ab8bc6db4af99433bd4708cd4b45/media/image7.png){width="6.152777777777778in"
+height="2.6902777777777778in"}
+
+**Comparaison :**
+
+• Tension crête : La valeur théorique de la tension crête (169.7V) est
+proche de celle observée sur l\'oscilloscope (169V), avec une légère
+différence probablement due aux pertes pratiques (chute de tension dans
+la diode et autres résistances dans le circuit).
+
+• Tension continue : La valeur théorique de la tension continue (53.8V)
+correspond également bien à la valeur mesurée par le multimètre
+(53.3058), avec une petite différence liée aux effets réels du circuit.
+
+**Conclusion :**
+
+Les deux valeurs sont très proches, avec une différence de 0.4942 V,
+soit environ 0.92%. Cette légère différence peut être due aux pertes
+dans le circuit ou à la précision de la simulation et des composants
+utilisés (diodes, transformateur, etc.).
+
+**[Simulation 3]{.underline}**
+
+> ![](vertopal_fcd2ab8bc6db4af99433bd4708cd4b45/media/image8.png){width="7.352777777777778in"
+> height="4.0375in"}
+
++-----------------------------------+-----------------------------------+
+| **I.**                            | > **Partie expérimentale :**\     |
+|                                   | > **1)Circuit**                   |
++===================================+===================================+
++-----------------------------------+-----------------------------------+
+
+> ![](vertopal_fcd2ab8bc6db4af99433bd4708cd4b45/media/image9.png){width="6.3in"
+> height="3.3305555555555557in"}
+>
+> **2)Oscilloscope**
+>
+> ![](vertopal_fcd2ab8bc6db4af99433bd4708cd4b45/media/image10.png){width="6.3in"
+> height="3.0in"}
+>
+> **3)Multimètre**
+
+![](vertopal_fcd2ab8bc6db4af99433bd4708cd4b45/media/image11.png){width="5.875in"
+height="2.5944444444444446in"}
+
++-----------------------------------+-----------------------------------+
+| **II.**                           | > **Partie Théorique**\           |
+|                                   | > **1)Les valeurs crêtes de la    |
+|                                   | > tension d'entrée et de la       |
+|                                   | > tension de** **sortie**         |
++===================================+===================================+
++-----------------------------------+-----------------------------------+
+
+> On sait que : 𝑉Crete = 𝑉rms × √2\
+> Application Numérique :
+
+𝑉CreteEntrée = 120 × √2 = 169.705 𝑉
+
+> 𝑉CreteSortie = 𝑉CreteEntrée 10
+>
+> −1.4 = 15.570 𝑉
+
+Par Suite
+
+> 𝑉Crete = 2 × 𝑉CreteSortie 𝜋
+>
+> = 9.910 𝑉
+>
+> **2)Comparaison les valeurs trouvées avec les valeurs mesurées.**
+
+• Tension crête : La valeur théorique de la tension crête « 169.705 V »
+est proche de celle observée sur l\'oscilloscope « 169.000 V ».
+
+• Tension crête : La valeur théorique de la tension crête « 15.570 V »
+est proche de celle observée sur l\'oscilloscope « 15.400 V ».
+
+• Tension continue : La valeur théorique de la tension continue « 9.910V
+» est proche à la valeur mesurée par le multimètre\
+« 9.529V »
+
+**Conclusion :**
+
+Les écarts observés entre les valeurs théoriques et mesurées sont
+faibles, ce qui valide les hypothèses théoriques et montre que le
+montage et les instruments utilisés sont fiables.
